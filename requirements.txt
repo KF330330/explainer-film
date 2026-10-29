@@ -1,0 +1,6 @@
+# explainer-film 的 Python 依赖（scripts/install.sh 装进 ~/.venvs/explainer-film；版本钉死，numpy 2.4.4 要求 Python ≥3.11）
+playwright==1.57.0
+numpy==2.4.4
+opencv-python-headless==4.13.0.92
+pillow==12.3.0
+pypinyin==0.55.0

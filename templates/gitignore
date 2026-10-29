@@ -1,0 +1,13 @@
+# explainer-film 项目（scripts/new_project.py 生成）。8 个引擎大目录是软链到 skill 的 vendor/engine/，换机器后跑 new_project.py --dest <本项目> --relink 重建。
+/engine/lib
+/engine/scenes
+/engine/demos
+/engine/spacex
+/engine/spacex_wb
+/engine/transitions
+/engine/clips
+/engine/examples
+/engine/__pycache__/
+/tools/__pycache__/
+# 由 make_timing.py 生成
+/engine/__FILM__/timing.js

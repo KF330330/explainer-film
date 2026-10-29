@@ -1,0 +1,4 @@
+{
+ "_说明": "个别 cue 送配音引擎的读法稿覆盖（say 不动）。只许改标点、空格：cuelib.load_cues 会核 norm(覆盖) == norm(原读法片段)，不等就报错。写法：\"<cue id>\": {\"tts\": \"<新读法稿>\", \"why\": \"<为什么改>\"}。whole_beats：整拍一次合成再切回子 cue 的节拍（make_audio.py 的 split_whole 切，切点记进 audio/manifest.json 的 whole_beats），写法：\"<节拍键>\": {\"why\": \"<为什么整拍合成>\"}。",
+ "whole_beats": {}
+}
