@@ -1,5 +1,13 @@
 # explainer-film（白板版）· 安装与使用说明
 
+<p align="center">
+  <a href="docs/demo/tomato-demo.mp4"><img src="docs/demo/tomato-demo.gif" width="720" alt="示例片「番茄工作法」，37 秒"></a>
+</p>
+<p align="center">
+  示例片「番茄工作法」，37 秒：给它 6 句口播稿，画面、配音、字幕都由这个 skill 做出来。<br>
+  上面的动图没有声音，<a href="docs/demo/tomato-demo.mp4">点这里看带配音的完整版</a>。
+</p>
+
 ## 这是什么
 
 一个 Claude Code 的 skill：把一篇文章、一份报告、一个提纲或者一个主题，做成**白板手绘风格、全程动画、带配音**的讲解视频（1080p mp4，附 srt 字幕）。
